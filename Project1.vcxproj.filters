@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Character">
+      <UniqueIdentifier>{5e5acb8c-e876-4c2c-afd0-19340f41be24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shape">
+      <UniqueIdentifier>{12231584-8fd3-4887-8988-fa59f484b073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{ba516340-6223-4e10-999a-26f543788f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="system">
+      <UniqueIdentifier>{6f95c9a0-bcc6-40da-8650-dfe36398fa23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Directx">
+      <UniqueIdentifier>{be0b972b-48ba-4096-b5af-002859ef3bce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="DX_Rectangle.cpp">
+      <Filter>Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="DX_Font.cpp">
+      <Filter>Directx</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObj.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Fade.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Orienter.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureObj.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Eplosion.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainPace.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Directx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexStruct.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="DX_Rectangle.h">
+      <Filter>Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="DX_Font.h">
+      <Filter>Directx</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObj.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Fade.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Orienter.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="stage.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureObj.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainPace.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Directx</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
