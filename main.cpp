@@ -14,6 +14,13 @@
 * @author nlsysis@localhost HAL Tokyo 2019/09/19
 */
 
+#pragma comment(lib,"d3d9.lib")
+#if defined(DEBUG) || defined(_DEBUG)
+#pragma comment(lib,"d3dx9d.lib")
+#else
+#pragma comment(lib,"d3dx9.lib")
+#endif
+
 int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
 	_In_ LPSTR lpCmdLine, _In_ int nCmdShow)
 {
