@@ -1,5 +1,6 @@
 # Pin-Bong
-これは2Dゲームです。C++ とC言語を使いました。  
+これは2Dゲームです。C++ とC言語を使いました。 
+全部で、10ステージ分のレベルデザインをしてみました。  
 A 2D game by DirectX9. Coding in c++ and c.  
 ## 制作環境
 Windows10 with Microsoft DirectX SDK (June 2010)
