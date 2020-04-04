@@ -8,8 +8,7 @@ namespace
 
 }
 
-LRESULT CALLBACK
-MainWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
+LRESULT CALLBACK MainWndProc(HWND hwnd, UINT msg, WPARAM wParam, LPARAM lParam)
 {
 	return g_pd3dApp->MsgProc(hwnd, msg, wParam, lParam);
 }
@@ -84,7 +83,8 @@ int D3DApp::Run()
 			}
 			else
 			{
-				Sleep(100);
+				//Sleep(100);
+				m_Timer.Stop();
 			}
 		}
 	}
